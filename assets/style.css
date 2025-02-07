@@ -107,16 +107,13 @@
   background-color: rgb(10, 10, 26) !important;
 }
 
-/* FEATURED NEWS */
-.section-featured-news {
-  background-color: rgb(3, 3, 15) !important;
-}
+
+/* FOOTER */
 
 footer {
   background-color: black !important;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 50px;
   border-top: white 1px solid;
 }
 
@@ -130,12 +127,24 @@ footer img {
   text-decoration: none;
 }
 
+/* FEATURED NEWS */
+
 .section-featured-news h4 {
   font-family: "Michroma", serif;
 }
 
 .img-col-2 {
   height: 400px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.img-col-2 h6 {
+  position: absolute;
+  bottom: 0;
+  background-color: #0a1b2491;
+  color: white;
+  padding: 10px;
 }
 
 .img-col-2 img {
@@ -145,6 +154,20 @@ footer img {
 
 .img-col-1 {
   height: 400px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.img-col-1 h6 {
+  position: absolute;
+  bottom: 0;
+  top: 335px;
+  background-color: #0a1b2491;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 57px;
 }
 
 .img-col-1 img {
@@ -154,9 +177,68 @@ footer img {
 
 .img-col-3 {
   height: 188px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.img-col-3 h6{
+  position: absolute;
+  bottom: 0;
+  background-color: #0a1b2491;
+  color: white;
+  padding: 10px;
 }
 
 .img-col-3 img {
   min-height: 100%;
   object-fit: cover;
+}
+
+.img-col-4 {
+  height: 188px;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.img-col-4 img {
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.img-col-4 h6 {
+  position: absolute;
+  bottom: 0;
+  top: 137px;
+  background-color: #0a1b2491;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 49px;
+}
+
+.section-featured-news {
+  background-color: rgb(3, 3, 15) !important;
+  padding-bottom: 50px;
+}
+
+.img-col-1:hover {
+  /* border: solid 1px white; */
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 1px rgb(255, 255, 255);
+}
+
+.img-col-2:hover {
+  /* border: solid 1px white; */
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 1px rgb(255, 255, 255);
+
+}
+
+.img-col-3:hover {
+  /* border: solid 1px white; */
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 1px rgb(255, 255, 255);
+}
+
+.img-col-4:hover {
+  /* border: solid 1px white; */
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 1px rgb(255, 255, 255);
 }
