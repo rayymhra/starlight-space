@@ -268,6 +268,12 @@ footer img {
   overflow: hidden;
 }
 
+/* RECENT VIDEOS */
+.recent-video-section h3{
+  font-family: "Oxanium", serif;
+  font-weight: 700;
+}
+
 /* SPACESHIPS HOME */
 .spaceships-hero-section {
   background-image: url("media/spaceships.jpg");
@@ -303,7 +309,92 @@ footer img {
 }
 
 .space-stations-section p {
-  /* font-family: "Oxanium", serif; */
   color: white;
   margin-top: 13px;
+}
+
+.space-station-card {
+  color: white;
+}
+
+/* SPACE LAUNCH */
+.space-launch-section h3{
+  font-family: "Oxanium", serif;
+  font-size: 50px;
+  font-weight: 700;
+  padding-right: 50px;
+}
+
+.space-launch-section p {
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+/* GATEWAY DEEP */
+.gateway-deep-section {
+  background-image: url("media/gateway\ section.png");
+  height: 70vh;
+  background-size: cover;
+  image-rendering: crisp-edges;
+}
+
+.gateway-deep-section h1 {
+  font-family: "Michroma", serif;
+  color: white;
+}
+
+.gateway-deep-section p {
+  font-family: "Oxanium", serif;
+  color: white;
+}
+
+.gateway-deep-section a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ASTRONAUTS HERO */
+.astronauts-hero-section {
+  background-image: url("media/astronaut-dark-wallpaper-space-wallpaper_265515-6729.avif");
+  height: 100vh;
+  background-size: cover;
+  image-rendering: crisp-edges;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.astronauts-hero-section h1 {
+  color: white;
+  font-family: "Michroma", serif;
+}
+
+/* AT THE SPACE STATION */
+.at-space-station-section {
+  background-color: rgb(3, 3, 15);
+  color: white;
+}
+
+.view-astronaut {
+  color: white;
+  text-decoration: none;
+  background-color: #104890;
+  padding: 10px 40px;
+  border-radius: 20px;
+  transition: all ease 0.3s;
+}
+
+.view-astronaut:hover {
+  background-color: #0d3364;
+  color: #d1cccc;
+}
+
+.at-space-station-section h6 {
+  font-family: "Oxanium", serif;
+}
+
+.at-space-station-section h3 {
+  font-family: "Michroma", serif;
 }
