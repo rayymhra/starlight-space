@@ -109,7 +109,6 @@
 
 
 /* FOOTER */
-
 footer {
   background-color: black !important;
   padding-top: 20px;
@@ -398,3 +397,168 @@ footer img {
 .at-space-station-section h3 {
   font-family: "Michroma", serif;
 }
+
+
+/* SATELITE HERO */
+.satelite-hero-section {
+  background-image: url("media/jeremy-straub-GpVTuahi2aM-unsplash.jpg");
+  height: 110vh;
+  background-size: cover;
+  image-rendering: crisp-edges;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.satelite-items {
+  color: white;
+  text-align: center;
+}
+
+.satelite-items h1 {
+  font-family: "Michroma", serif;
+}
+
+.earth-observation-satellite-section {
+  background-color: rgb(3, 3, 15);
+  color: white;
+}
+
+.earth-observation-satellite-section h3 {
+  font-family: "Michroma", serif;
+  margin-bottom: 15px;
+}
+
+.earth-observation-satellite-section p {
+  font-family: "Oxanium", serif;
+}
+
+.earth-observation-satellite-section h6 {
+  font-family: "Oxanium", serif;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.satelite-card p {
+  font-weight: 300 !important;
+  font-family: sans-serif;
+}
+
+.satelite-card {
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.satelite-card img:hover {
+  box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 1px rgb(255, 255, 255);
+}
+
+/* PLANET */
+.planet-section {
+  background-image: url(media/stars-galaxy-3840x2160-10307.jpg);
+  height: 700vh;
+  background-repeat: repeat-y;
+  background-size: 100%;
+  position: relative;
+}
+
+.planet-container{
+  position: relative;
+}
+
+.planet {
+  position: absolute;
+  transition: all ease 0.3s;
+}
+
+.planet:hover {
+  filter: drop-shadow(3px 0 0 white) drop-shadow(0 3px 0 white)
+    drop-shadow(-3px 0 0 white) drop-shadow(0 -3px 0 white);
+}
+
+.sun {
+  position: absolute;
+  right: 23%;
+  top: 10px;
+}
+
+.sun img {
+  width: 600px;
+}
+
+.merkurius {
+  top: 650px;
+  left: 440px;
+}
+
+.merkurius img {
+  width: 190px;
+}
+
+.venus {
+  top: 900px;
+  left: 150px;
+}
+
+.venus img {
+  width: 240px;
+}
+
+.bumi {
+  top: 1190px;
+  left: 750px;
+}
+
+.bumi img {
+  width: 300px;
+}
+
+.mars {
+  top: 1500px;
+  left: 150px;
+}
+
+.mars img {
+  width: 300px;
+}
+
+.jupiter {
+  top: 1830px;
+  left: 250px;
+}
+
+.jupiter img {
+  width: 360px;
+}
+
+.saturnus {
+  top: 300px;
+  left: 300px;
+}
+
+.uranus {
+  top: 350px;
+  left: 350px;
+}
+
+.neptunus {
+  top: 400px;
+  left: 400px;
+}
+
+.instruction-planet-container {
+  height: 400px;
+  width: 700px;
+  background-color: rgba(255, 255, 255, 0.527);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  border-radius: 40px;
+
+  font-family: "Oxanium", serif;
+}
+
