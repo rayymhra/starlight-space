@@ -599,3 +599,55 @@ footer img {
   font-family: "Oxanium", serif;
 }
 
+
+/* PLANET SUB-PAGE */
+.sub-planet-hero-section {
+  background-image: url("media/bryan-goff-RF4p4rTM-2s-unsplash.jpg");
+  height: 70vh;
+  background-size: cover;
+  image-rendering: crisp-edges;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Michroma", serif;
+}
+
+.sub-planet-content {
+  background-color: black;
+}
+
+.sidebar {
+  /* background-color: #222; */
+  min-height: 100vh;
+  padding-top: 20px;
+  border-left: white 3px solid;
+  font-family: "Oxanium", serif;
+  transition: all 0.3s ease;
+
+}
+.sidebar a {
+  color: white;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  border-left: 3px solid transparent;
+}
+.sidebar a.active, .sidebar a:hover {
+  /* background-color: #333; */
+  border-bottom: 1px solid #fff;
+}
+
+.content-content h2{
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.637);
+  font-family: "Michroma", serif;
+}
+
+.content-content p {
+  color: white;
+  margin-left: 3px;
+  word-spacing: 1px;
+  letter-spacing: 0.5px;
+}
