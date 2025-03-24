@@ -457,7 +457,7 @@ footer img {
 /* PLANET */
 .planet-section {
   background-image: url(media/stars-galaxy-3840x2160-10307.jpg);
-  height: 700vh;
+  height: 650vh;
   background-repeat: repeat-y;
   background-size: 100%;
   position: relative;
@@ -473,8 +473,32 @@ footer img {
 }
 
 .planet:hover {
-  filter: drop-shadow(3px 0 0 white) drop-shadow(0 3px 0 white)
-    drop-shadow(-3px 0 0 white) drop-shadow(0 -3px 0 white);
+  /* filter: drop-shadow(3px 0 0 white) drop-shadow(0 3px 0 white)
+    drop-shadow(-3px 0 0 white) drop-shadow(0 -3px 0 white); */
+  /* opacity: 0.7; */
+  filter: opacity(0.5) drop-shadow(0 0 0 rgb(0, 0, 0));
+}
+
+.planet-name {
+  display: none;
+  transition: all ease 0.3s !important;
+
+  color: white;
+  font-family: "Michroma", serif;
+  font-weight: 500;
+  background-color: #53535371;
+  padding: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.planet:hover .planet-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  transition: all ease 0.3s;
 }
 
 .sun {
@@ -525,7 +549,7 @@ footer img {
 
 .jupiter {
   top: 1830px;
-  left: 250px;
+  left: 290px;
 }
 
 .jupiter img {
@@ -533,18 +557,26 @@ footer img {
 }
 
 .saturnus {
-  top: 300px;
-  left: 300px;
+  top: 2300px;
+  left: 90px;
+}
+
+.saturnus img {
+  width: 520px;
 }
 
 .uranus {
-  top: 350px;
-  left: 350px;
+  top: 2640px;
+  left: 750px;
 }
 
 .neptunus {
-  top: 400px;
-  left: 400px;
+  top: 2800px;
+  left: 100px;
+}
+
+.neptunus img {
+  width: 300px;
 }
 
 .instruction-planet-container {
