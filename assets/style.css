@@ -10,6 +10,11 @@
   font-family: "Oxanium", serif !important;
 }
 
+.section {
+  padding-top: 3.2rem !important;
+  padding-bottom: 3.2rem !important;
+}
+
 /* NAVBAR */
 .bg-blur {
   backdrop-filter: blur(10px);
@@ -299,7 +304,6 @@ footer img {
 
 .space-stations-section {
   background-color: rgb(3, 3, 15) !important;
-  padding-top: 50px;
 }
 
 .space-stations-section h4 {
@@ -590,6 +594,7 @@ footer img {
   margin-right: auto;
   margin-top: 90px;
   border-radius: 40px;
+  flex-direction: column;
 
   font-family: "Oxanium", serif;
 }
