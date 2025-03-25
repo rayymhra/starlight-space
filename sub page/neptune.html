@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mercury</title>
+    <title>Neptune</title>
     <link rel="stylesheet" href="../assets/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -51,7 +51,7 @@
     </nav>
 
     <div class="sub-planet-hero-section section">
-      <h1>Mercury</h1>
+      <h1>Neptune</h1>
     </div>
 
     <div class="sub-planet-content section">
@@ -84,14 +84,7 @@
           <!-- Content -->
           <main class="col-9 px-5 content-content">
             <div id="content">
-              <h2>Summary</h2>
-              <p>
-                Mercury is the closest planet to the Sun and the smallest in the
-                Solar System. Despite its proximity to the Sun, it is not the
-                hottest planet. Mercury has a very thin atmosphere, extreme
-                temperature fluctuations, and a heavily cratered surface similar
-                to the Moon.
-              </p>
+                <h2>Summary</h2><p>Neptune is the eighth and farthest planet from the Sun, making it the most distant known planet in the Solar System. It is an ice giant, composed mainly of hydrogen, helium, and icy materials like water, ammonia, and methane. Neptune is known for its deep blue color, strong winds, and dynamic storms, including the famous Great Dark Spot. It has a faint ring system and 14 known moons, the largest of which is Triton.</p>
             </div>
           </main>
         </div>
@@ -127,27 +120,31 @@
         const content = document.getElementById("content");
 
         const sections = {
-          summary:
-            "<h2>Summary</h2><p>Mercury is the closest planet to the Sun and the smallest in the Solar System. It has a barren, rocky surface covered in craters, much like Earth's Moon. Mercury lacks a significant atmosphere, causing extreme temperature variations between day and night. Despite its small size, it has a dense metallic core, making it the second-most dense planet after Earth. Mercury has been a subject of interest for astronomers for centuries, and space missions have provided valuable insights into its composition, surface features, and magnetic field.</p>",
+  summary:
+    "<h2>Summary</h2><p>Neptune is the eighth and farthest planet from the Sun, making it the most distant known planet in the Solar System. It is an ice giant, composed mainly of hydrogen, helium, and icy materials like water, ammonia, and methane. Neptune is known for its deep blue color, strong winds, and dynamic storms, including the famous Great Dark Spot. It has a faint ring system and 14 known moons, the largest of which is Triton.</p>",
 
-          characteristics:
-            "<h2>Characteristics</h2><p>Mercury has a diameter of about 4,880 km, making it the smallest planet in the Solar System and only slightly larger than Earth's Moon. It has a dense iron core, which accounts for a significant portion of its mass. The planet’s surface is covered in impact craters due to its lack of an atmosphere to burn up meteors. Mercury has no moons or rings, and it has a very thin exosphere composed of oxygen, sodium, hydrogen, helium, and potassium, which is constantly being stripped away by solar winds.</p>",
+  characteristics:
+    "<h2>Characteristics</h2><p>Neptune has a diameter of about 49,244 km, making it the fourth-largest planet in the Solar System. It is very similar in composition to Uranus but has a more active and dynamic atmosphere. Its deep blue color comes from methane in its atmosphere, which absorbs red light. Neptune has 14 confirmed moons and a system of faint, dusty rings. Its largest moon, Triton, is unique because it orbits Neptune in the opposite direction of the planet's rotation, suggesting it was captured from the Kuiper Belt.</p>",
 
-          orbit:
-            "<h2>Orbit & Rotation</h2><p>Mercury has a highly elliptical orbit, taking only 88 Earth days to complete one revolution around the Sun. However, its rotation is much slower. One full rotation on its axis takes about 59 Earth days. This results in a unique phenomenon called a ‘resonant rotation,’ where Mercury rotates three times for every two orbits around the Sun. Due to this slow rotation, a single day-night cycle on Mercury (from one sunrise to the next) lasts 176 Earth days.</p>",
+  orbit:
+    "<h2>Orbit & Rotation</h2><p>Neptune orbits the Sun at an average distance of about 4.5 billion km (2.8 billion miles) and takes approximately 165 Earth years to complete one orbit. This means that since its discovery in 1846, Neptune has only completed one full orbit in 2011. The planet rotates on its axis every 16 hours, giving it a shorter day than Earth. Like Uranus, Neptune's axis is tilted, but not as extremely, leading to seasonal variations.</p>",
 
-          surface:
-            "<h2>Surface & Atmosphere</h2><p>Mercury's surface is heavily cratered and resembles that of the Moon. It has vast plains, high cliffs (known as scarps), and impact basins such as the massive Caloris Basin, which is about 1,550 km in diameter. The planet's surface has been shaped by asteroid impacts, volcanic activity, and the shrinking of its core, which has caused the surface to crack and form ridges. Since Mercury lacks a substantial atmosphere, it experiences extreme temperature fluctuations and does not have weather or wind erosion.</p>",
+  surface:
+    "<h2>Surface & Atmosphere</h2><p>Neptune does not have a solid surface but has a thick atmosphere composed mostly of hydrogen, helium, and methane. Beneath the atmosphere, the planet has a mantle of icy materials and a small rocky core. Neptune's atmosphere is the most active of all the giant planets, with powerful winds reaching up to 2,100 km/h (1,300 mph), the fastest in the Solar System. It also experiences large storms, such as the Great Dark Spot, which was observed by Voyager 2 in 1989.</p>",
 
-          temperature:
-            "<h2>Temperature</h2><p>Temperatures on Mercury are among the most extreme in the Solar System. Since it has no significant atmosphere to trap heat, daytime temperatures can soar to 427°C (800°F), while nighttime temperatures drop as low as -173°C (-280°F). These variations make Mercury one of the most thermally extreme planets. Interestingly, despite its closeness to the Sun, some craters near Mercury’s poles remain permanently shadowed and contain water ice.</p>",
+  temperature:
+    "<h2>Temperature</h2><p>Neptune is one of the coldest planets in the Solar System, with temperatures dropping to about -214°C (-353°F). Despite being farther from the Sun than Uranus, Neptune emits more internal heat, which drives its extreme weather and storm activity. Its deep, icy atmosphere plays a significant role in regulating its climate.</p>",
 
-          exploration:
-            "<h2>Exploration</h2><p>Mercury has been visited by only a few spacecraft due to the challenges of reaching and orbiting such a small, fast-moving planet close to the Sun. The first spacecraft to visit Mercury was Mariner 10, which flew by three times between 1974 and 1975, capturing the first close-up images of the planet. Later, NASA’s MESSENGER spacecraft became the first to orbit Mercury in 2011, providing detailed data on its surface, composition, and magnetic field. The European-Japanese mission BepiColombo, launched in 2018, is currently en route to study Mercury in more detail.</p>",
+  exploration:
+    "<h2>Exploration</h2><p>Neptune has been visited by only one spacecraft, Voyager 2, which flew past the planet in 1989. This mission provided the first detailed images of Neptune, revealing its dynamic atmosphere, rings, and moons. Since then, astronomers have continued studying Neptune using telescopes like Hubble, but no further missions have been sent. Future explorations may focus on studying Neptune’s atmosphere, weather patterns, and its intriguing moon, Triton.</p>",
 
-          mythology:
-            "<h2>Mythology</h2><p>Mercury is named after the Roman god of commerce, communication, and travelers. In mythology, Mercury (Hermes in Greek mythology) was the messenger of the gods, known for his speed and agility. The planet was given this name because of its fast movement across the sky, which ancient astronomers observed. Many ancient civilizations, including the Babylonians and Greeks, studied Mercury, associating it with different deities depending on their cultural beliefs.</p>",
-        };
+  mythology:
+    "<h2>Mythology</h2><p>Neptune is named after the Roman god of the sea, known for his power and dominion over the oceans. The planet's deep blue color, resembling the ocean, makes this name fitting. Neptune was discovered in 1846 through mathematical predictions rather than direct observation, making it the only planet to be discovered this way. Many of its moons are named after sea deities from Greek mythology.</p>",
+};
+
+
+
+
 
         menuItems.forEach((item) => {
           item.addEventListener("click", function (e) {
