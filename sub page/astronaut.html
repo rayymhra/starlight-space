@@ -50,8 +50,8 @@
       </div>
     </nav>
 
-    <div class="sub-planet-hero-section section">
-      <h1>Mercury</h1>
+    <div class="sub-astronaut-hero-section section">
+      <h1>Astronaut</h1>
     </div>
 
     <div class="sub-planet-content section">
@@ -71,10 +71,9 @@
             </nav>
     
             <!-- Content -->
-            <main class="col-9 px-5">
+            <main class="col-9 px-5 content-content">
                 <div id="content">
-                    <h2>Summary</h2>
-                    <p>Reid Wiseman served as Flight Engineer aboard the International Space Station for Expedition 41...</p>
+                  <h2>Summary</h2><p>Reid Wiseman is an American astronaut, engineer, and naval aviator who served as Flight Engineer for Expedition 41 aboard the International Space Station (ISS). During his mission, he contributed to various scientific research projects, performed a spacewalk, and shared his experiences with the public through social media, making space exploration more engaging for a global audience. His enthusiasm for space and dedication to scientific progress have made him a respected figure in the astronaut community.</p>
                 </div>
             </main>
         </div>
@@ -110,15 +109,31 @@
             const content = document.getElementById("content");
     
             const sections = {
-                summary: "<h2>Summary</h2><p>Reid Wiseman served as Flight Engineer aboard the International Space Station for Expedition 41...</p>",
-                personal: "<h2>Personal</h2><p>Personal information about Reid Wiseman...</p>",
-                education: "<h2>Education</h2><p>Reid Wiseman earned a Bachelor of Science degree from Rensselaer Polytechnic Institute...</p>",
-                experience: "<h2>Experience</h2><p>Details about Wiseman's work experience...</p>",
-                spaceflight: "<h2>Spaceflight Experience</h2><p>Reid's first spaceflight included 13 hours as a spacewalker...</p>",
-                awards: "<h2>Awards/Honors</h2><p>List of awards and honors...</p>",
-                organization: "<h2>Organization</h2><p>Details about affiliations and organizations...</p>",
-                pronunciation: "<h2>Pronunciation</h2><p>How to pronounce Reid Wiseman...</p>"
-            };
+  summary: 
+    "<h2>Summary</h2><p>Reid Wiseman is an American astronaut, engineer, and naval aviator who served as Flight Engineer for Expedition 41 aboard the International Space Station (ISS). During his mission, he contributed to various scientific research projects, performed a spacewalk, and shared his experiences with the public through social media, making space exploration more engaging for a global audience. His enthusiasm for space and dedication to scientific progress have made him a respected figure in the astronaut community.</p>",
+
+  personal: 
+    "<h2>Personal</h2><p>Reid Wiseman was born on November 11, 1975, in Baltimore, Maryland. He developed a passion for aviation and space exploration from an early age, inspired by both historical space missions and his experiences as a naval pilot. When not working, Wiseman enjoys spending time with his family, flying aircraft, running, scuba diving, and learning about emerging space technologies. He is known for his charismatic personality and his ability to inspire younger generations to pursue careers in STEM fields.</p>",
+
+  education: 
+    "<h2>Education</h2><p>Reid Wiseman earned a Bachelor of Science degree in Computer and Systems Engineering from Rensselaer Polytechnic Institute in 1997. He later pursued a Master of Science degree in Systems Engineering from Johns Hopkins University in 2006. His academic background in engineering and his military training provided him with a strong foundation for his career as a naval aviator and later as a NASA astronaut.</p>",
+
+  experience: 
+    "<h2>Experience</h2><p>Before becoming an astronaut, Wiseman had an extensive career as a naval aviator and test pilot. He joined the U.S. Navy and trained as a fighter pilot, eventually flying F-14 Tomcats and F/A-18 Super Hornets. He was deployed on multiple aircraft carriers and participated in several combat and reconnaissance missions. Later, he became a test pilot at Naval Air Station Patuxent River, where he was involved in evaluating new aircraft systems. His leadership and operational experience in high-pressure environments made him an ideal candidate for the NASA astronaut program, which he joined in 2009.</p>",
+
+  spaceflight: 
+    "<h2>Spaceflight Experience</h2><p>Wiseman was selected as part of NASA's 20th astronaut class in 2009 and completed rigorous training in preparation for spaceflight. In May 2014, he launched aboard Soyuz TMA-13M to the International Space Station as part of Expedition 40/41. During his mission, he spent 165 days in space, conducting experiments in physics, biology, and Earth sciences. He also participated in a spacewalk that lasted over six hours, assisting in the maintenance and upgrade of external components of the ISS. His ability to communicate the wonders of space through social media gained him widespread recognition, making his mission one of the most publicly engaging ISS expeditions.</p>",
+
+  awards: 
+    "<h2>Awards/Honors</h2><p>Throughout his career, Reid Wiseman has received numerous awards and honors for his achievements. These include the Air Medal, the Navy Commendation Medal, and the NASA Space Flight Medal. His contributions to both the military and space exploration have been widely recognized by the aerospace and engineering communities. Additionally, he has been honored for his outreach efforts, inspiring young people to explore careers in aviation, engineering, and space sciences.</p>",
+
+  organization: 
+    "<h2>Organization</h2><p>Wiseman is affiliated with several prestigious organizations related to aviation, engineering, and space exploration. He is a member of the Society of Experimental Test Pilots, the Association of Space Explorers, and the American Institute of Aeronautics and Astronautics. As a NASA astronaut, he has also worked closely with international space agencies such as Roscosmos and the European Space Agency (ESA) on collaborative research projects and training exercises.</p>",
+
+  pronunciation: 
+    "<h2>Pronunciation</h2><p>Reid Wiseman's name is pronounced as 'Reed WIZE-man'. The first name, Reid, is a single syllable and rhymes with 'read', while the last name, Wiseman, is pronounced with emphasis on the first syllable, like 'wise-man'. His name is often associated with intelligence and wisdom, fitting for an astronaut dedicated to exploration and discovery.</p>"
+};
+
     
             menuItems.forEach(item => {
                 item.addEventListener("click", function (e) {

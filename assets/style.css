@@ -658,3 +658,17 @@ footer img {
   word-spacing: 1px;
   letter-spacing: 0.5px;
 }
+
+.sub-astronaut-hero-section {
+  background-image: url("media/vecteezy_astronaut-floating-in-space_22640425.jpg");
+  /* filter: brightness(0.8); */
+  height: 70vh;
+  background-size: cover;
+  image-rendering: crisp-edges;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Michroma", serif;
+}
